@@ -2,7 +2,7 @@
 
 In the pandas-challenge I chose the HeroesOfPymoli assignment. I created a repo on github and cloned to my PC. Using gitbash I used the function mkdir to created the required directories/folders and nested them under the pandas-challenge main folder. I copied over the starter code python file and the Resources folder. I pushed changes to my repo on github via gitbash using git add ., git commit -m "", git push.
 
-I used Jupyter Notebook to record the code run the code. The starter code already included the dependencies/set-up, file to load and reading the file.  
+I used Jupyter Notebook to record the code and run the code. The starter code already included the dependencies/set-up, file to load and reading the file.  
 
 The assignment wanted me to analyze purchasing data based on demographics like age and gender as well as most profitable and most popular items purchased. 
 
@@ -15,11 +15,13 @@ Here's the main data frame:
     purchase_data_df = pd.read_csv(csv_path)
 
 Here's the demo data frame where I used the .loc function to capture only the demographic information I wanted, then I dropped the duplicates:
+    
     player_demo = purchase_data_df.loc[:, ["Gender", "SN", "Age"]]
 
     player_demo = player_demo.drop_duplicates()
     
 When calcualting the the number of item purchases I used the len along with .unique functions to only get the total number of items for sale: 
+    
     unique_items_count = len(purchase_data_df["Item ID"].unique())
 
 After creating the variables I needed for calculations and such, I created several corresponding tables throughout the assignment using the df = pd.DataFrame and naming the table headers and nesting the calculated data from the variables underneath, as shown below: 
