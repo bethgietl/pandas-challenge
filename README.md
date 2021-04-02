@@ -1,5 +1,7 @@
 # pandas-challenge
 
+***************The code looks funky when pushed to gitHub, the instructor, Mudit, said not to worry about it*************************
+
 In the pandas-challenge I chose the HeroesOfPymoli assignment. I created a repo on github and cloned to my PC. Using gitbash I used the function mkdir to created the required directories/folders and nested them under the pandas-challenge main folder. I copied over the starter code python file and the Resources folder. I pushed changes to my repo on github via gitbash using git add ., git commit -m "", git push.
 
 I used Jupyter Notebook to record the code and run the code. The starter code already included the dependencies/set-up, file to load and reading the file.  
